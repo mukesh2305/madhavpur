@@ -1,0 +1,21 @@
+.homeImg {
+    background-image: url("../../public/image/tour1.webp");
+    height: 475px;
+    width: 100%;
+    /* object-fit: cover; */
+    background-size: cover;
+    object-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+
+.text {
+    text-align: center;
+    padding-top: 4rem;
+    color: white;
+}
+.text p {
+    font-size: 1.2rem;
+}
+.text h1 {
+    font-size: 4rem;
+}
