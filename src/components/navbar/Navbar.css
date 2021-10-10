@@ -22,15 +22,39 @@
      padding-right: 2rem ;
  }
 }
+.show-ham {
+    display: none;
+}
 @media (max-width: 991px) {
     .middlePart{
         display: none;
     }
     #row{
-        /* display: flex; */
-        flex-direction: row-reverse;
+        display: flex;
+        flex-direction: column-reverse;
     }
+    .leftPart .row {
+        width: 100%;
+    }
+    .col-6 .search {
+        width: 100%;
+        
+    }
+  .rightPart {
+      display: flex;
+      justify-content: space-between;
+  }
+  .show-ham{
+      display: block;
+  }
+  .justify-content-end {
+      justify-content: unset !important;
+  }
+   
 }
+    
+    
+    
 /* end of middlePart */
 
 /* right-part */
