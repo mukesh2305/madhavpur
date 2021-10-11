@@ -1,3 +1,7 @@
+:root {
+   --text-color: #696969;
+   --nav-bar-color : #f2f2f2;
+}
 .homeImg {
     background-image: url("../../public/image/tour1.webp");
     height: 475px;
@@ -54,41 +58,57 @@
     background-repeat: no-repeat;
     margin-right: 1rem;
 }
-/* 
-.travel-img img{
-    height:260px ;
-    width: 314px;
-    /* object-fit: cover; */
-    /* background-size: cover;
-    object-position: 50% 100%;
-    background-repeat: no-repeat; */
-/* }  */
 
-/* .travel-img  .col-4   { */
-    /* padding-right: -12rem; */
-    /* position: relative;
-    width: 29% !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
 .travel-img  .col-4   {
     text-align: center;
 } 
 .travel-img .col-4  a {
-    /* background: white; */
-    padding-top: 8rem !important;
+    background: white;
+    margin: 6rem 5rem ;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: white; */
+    text-decoration: none;
+    /* color:  !important; */
+    /* font-weight: bold; */
+    font-size: 1.7rem;
+    border-radius: 2px ;
 } 
-
-
 
 .travel-img .ml-5 {
     margin-left: 5rem;
 } 
-
-
 /* end of middlesection */
+
+/* after middel section */
+
+
+.color {
+background-color: var(--nav-bar-color);
+font-size:1.2rem ;
+letter-spacing: 2px;
+margin-top: 5rem;
+padding: 2rem;
+
+}
+.vr {
+    width: 2px !important;
+    min-height: 2rem !important;
+    opacity: unset !important;
+}
+/* end of after middel section */
+
+
+/* img and post section */
+.manageImg{
+    margin-top: 5rem;
+}
+.manageImg img{
+    /* margin-bottom:2rem; */
+    height:528.75px;
+    width: 940px;
+    background-size: cover;
+    object-position: 50% 100%;
+    background-repeat: no-repeat;
+}
+/* end of img and post section*/

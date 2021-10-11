@@ -1,15 +1,20 @@
 import React from 'react'
 import Navbar from '../../components/navbar/Navbar'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
-import tour2 from "../../public/image/tour2.webp";
-import tour3 from "../../public/image/tour3.webp";
-import tour4 from "../../public/image/tour4.webp";
+import { ImAirplane } from 'react-icons/im'
+import { AiFillCloud } from 'react-icons/ai'
+import beach1 from '../../public/image/beach1.webp';
+import beach2 from '../../public/image/beach2.webp';
+import beach3 from '../../public/image/beach3.webp';
+// import Avatar from 'react-avatar';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import { GiBalaclava } from 'react-icons/gi'
 import "./Home.css"
 const Home = () => {
     return (
         <div className="container-fulid">
             <div>
-                <Navbar style={{ position: "fixed" }} />
+                <Navbar style={{ position: "sticky" }} />
             </div>
             <div className="homeImg">n
                 <div className=" text">
@@ -43,6 +48,68 @@ const Home = () => {
                     </div>
                 </div>
             </div>
+
+
+            {/* color */}
+            <div className="container-fluid color">
+                <div class="jumbotron">
+                    <div className="container text-center">
+                        <div className="row text-center">
+                            <div className="col-md-2">
+                                <h5>As featured in</h5>
+                            </div>
+                            <div className="col-md-2 ">
+                                <div className="vr"></div>
+                            </div>
+                            <div className="col-md-2">
+                                {/* <h3>travel </h3> */}
+                                <span className="fw-bolder"> travel </span><br />
+                                blog
+                            </div>
+                            <div className="col-md-2">
+                                <ImAirplane /><br />
+                                PLANE<span className="fw-bolder">TOUR</span>
+                            </div>
+                            <div className="col-md-2">
+                                {/* <h3>Hello</h3> */}
+                                WORLD   <br />
+                                TRAVEL
+                            </div>
+                            <div className="col-md-2">
+                                <AiFillCloud /> <br />
+                                Skycloud
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* end of color */}
+
+            {/* img and post section */}
+            <div className="container-md text-center manageImg">
+                <div className="jumbotron">
+                    <div className="row">
+                        <div className="col-12">
+                            <img src={beach1} alt="" />
+                        </div>
+                        <div className="col-12 w-25">
+                            <GiBalaclava />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <img src={beach2} alt="" />
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <img src={beach3} alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* end of img and post section */}
+
         </div>
 
     )
