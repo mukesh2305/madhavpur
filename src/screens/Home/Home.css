@@ -112,3 +112,42 @@ padding: 2rem;
     background-repeat: no-repeat;
 }
 /* end of img and post section*/
+.container-admin{
+    padding: 0 90px;
+}
+ .admin-header{
+     border: 1px solid red;
+     height: 50px;
+     width: 900px;
+     display: flex;
+     text-align: left;
+ }
+ .admin-icon{
+       height: 45px;
+       width: 5%;
+       border: 1px solid black;
+       border-radius: 50%;
+}
+.admin-name{
+    border: 1px solid black;
+    width: 80%;
+    text-align: left;
+}
+.admin-name span{
+    display: block;
+    line-height:13px;
+    font-size: 13px;
+}
+.admin-name i{
+      font-size: 13px;
+}
+.admin-title{
+    width: 100%;
+}
+.admin-title h3,p{
+     text-align: left;
+}
+.admin-footer{
+    height: 40px;
+    border: 1px solid gray;
+}

@@ -37,7 +37,7 @@ const Home = () => {
 
             <div className="container-md ">
                 <div className="row travel-img">
-                    <div className="col-4 ml-5 image1">
+                    <div className="ml-5 col-4 image1">
                         <a href="/travel">Travel</a>
                     </div>
                     <div className="col-4 image2">
@@ -54,7 +54,7 @@ const Home = () => {
             <div className="container-fluid color">
                 <div class="jumbotron">
                     <div className="container text-center">
-                        <div className="row text-center">
+                        <div className="text-center row">
                             <div className="col-md-2">
                                 <h5>As featured in</h5>
                             </div>
@@ -86,16 +86,48 @@ const Home = () => {
             {/* end of color */}
 
             {/* img and post section */}
-            <div className="container-md text-center manageImg">
+            <div className="text-center container-md manageImg">
                 <div className="jumbotron">
                     <div className="row">
                         <div className="col-12">
                             <img src={beach1} alt="" />
                         </div>
-                        <div className="col-12 w-25">
+                        {/* <div className="col-12 "> */}
+                        {/* </div> */}
+                    </div>
+                    <div class="container-admin">
+                        <div class="admin-header">
+                            <div class="admin-icon">
+                                {/* icon */}
+                            </div>
+                            <div class="admin-name">
+                                <span>Admin</span>
+                                <i>Aug. 9 .1min  </i>
+                            </div>
+                        </div>
+                        <div class="admin-title">
+                            <h3>The Girl from Ipanema</h3>
+                            <p>Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to continue reading....</p>
+                            <hr style={{ marginBottom: "4.2px" }} />
+                        </div>
+                        <div class="admin-footer">
+                        </div>
+
+                    </div>
+                    {/* <div className="row ">
+                        <div className="col-3">
                             <GiBalaclava />
                         </div>
-                    </div>
+                        <div className="col-1 fs-6">
+                            <p> <small>Admin <br /> Aug 9 </small></p>
+                        </div>
+                        <div className="row">
+                            <div className="col-5 fs-4">
+                                <p>The Girl from Ipanema</p>
+                            </div>
+                        </div>
+                    </div> */}
+
                     <div className="row">
                         <div className="col-12">
                             <img src={beach2} alt="" />
