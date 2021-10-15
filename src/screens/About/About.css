@@ -1,0 +1,24 @@
+/* .position-adujust{
+    position: fixed;
+    width: 100%;
+} */
+.girl-image img{
+    width: 414px ;
+    height: 436px;
+    background-size: cover;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+.addPadding{
+    padding-bottom: 1rem;
+}
+.heading{
+    padding: 3rem 0 !important;
+}
+.position-adujust {
+    position: fixed;
+    width: 100%;
+}
+.col-6{
+    padding-bottom: 3rem;
+}

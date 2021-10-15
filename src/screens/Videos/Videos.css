@@ -1,0 +1,31 @@
+.adjustSizing{
+    width: 935px;
+    padding: 2rem 0 ;
+      justify-content: space-between;
+}
+
+#id{
+  
+
+}
+.sizing input {
+    width: 1000px !important;
+        /* width: 100px !important; */
+        border: none;
+    padding: 1rem !important;
+    outline: none;
+}
+.sizing input:hover {
+    background-color: #F2F2F2;
+    border-bottom: 3px solid blue;
+}
+.sizing select {
+    border: none;
+    outline: none;
+}
+
+.position-adjust{
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}

@@ -10,20 +10,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import Logo from '../../public/image/mainLogo.png'
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 const Navbar = () => {
-  // var rightPart = document.querySelector('.rightPart');
 
-  // var MaxWidth991 = window.matchMedia("(max-width: 991px)");
-
-  // function match() {
-  //     // MaxWidth991.matches ? classList.add('col-10') : classList.remove('full-page');
-  //     if (MaxWidth991.matches) {
-  //         rightPart.classList.remove('justify-content-end')
-  //     }
-
-  // }
-
-  // MaxWidth991.addEventListener("resize", match);
-  // match();
   return (
     <div className="nav">
       {/* nav class */}

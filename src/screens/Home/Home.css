@@ -3,21 +3,11 @@
    --nav-bar-color : #f2f2f2;
 }
 /* Navbar */
-.position-adujust {
 
-}
-@media (min-height: 118px) {
     .position-adujust{
         position: fixed;
         width: 100%;
     }
-}
-@media (m-height: 118px) {
-    .position-adujust{
-        position: fixed;
-        width: 100%;
-    }
-}
 /* end of Navbar */
 .homeImg {
     background-image: url("../../public/image/tour1.webp");
@@ -117,122 +107,3 @@ padding: 2rem;
 /* end of after middel section */
 
 
-/* img and post section */
-.manageImg{
-    margin-top: 5rem;
-}
-.manageImg img{
-    /* margin-bottom:2rem; */
-    height:528.75px;
-    width: 940px;
-    background-size: cover;
-    object-position: 50% 100%;
-    background-repeat: no-repeat;
-}
-
-
-/* post section */
-.container-admin{
-    /* margin-bottom:2rem; */
-    /* padding: 0 90px; */
-    margin-left: 88px;
-    /* border-bottom: 1px;
-    border-left: 1px;
-    border-right: 1px; */
-    width: 940px;
-    border: 1px solid #F5F5F5;
-    border-top: none;
-    padding: 1.5rem;
-    padding-bottom: unset;
-    margin-bottom: 2rem;
-}
- .admin-header{
-     /* border: 1px solid red; */
-     height: 50px;
-     width: 900px;
-     display: flex;
-     text-align: left;
- }
- .admin-icon {
-     font-size: 24px;
-       height: 45px;
-       width: 5%;
-       /* border: 1px solid black; */
-       border-radius: 50%;
-       /* background-color: hsl(224, 21%, 76%); */
-       text-align: center;
-       background-color: #A0A09F;
-}
-.admin-icon .font  {
-    /* font-size: 45px; */
-    background-color: #CCCCCC;
-    padding-bottom:9px ;
-    border-radius: 50%;
-}
-.admin-icon .font img svg{
-    background-color: #A0A09F;
-    /* border: none; */
-}
-
-.admin-name{
-    /* border: 1px solid black; */
-    width: 80%;
-    text-align: left;
-    padding-left: 0.7rem;
-}
-.admin-name span{
-    display: block;
-    line-height:13px;
-    font-size: 13px;
-}
-.admin-name i{
-      font-size: 13px;
-}
-.admin-title{
-    width: 100%;
-
-}
-.admin-title h3 {
-    font-size: 24px;
-}
-.admin-title p {
-    font-size: 16px;
-    /* color: #B5BCCF; */
-}
-.admin-title h3,p{
-     text-align: left;
-}
-.admin-footer{
-    height: 40px;
-    /* border: 1px solid gray; */
-    /* border: 1px solid #CCCCCC; */
-}
-
-.admin-footer .row {
-    margin-right: 40rem;
-}
-.admin-footer .col-3 span {
-    margin-left: 0.3rem;
-}
-
-
-.changePosition {
-    
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: -1.5rem;
-    /* background-color: pink; */
-}
-.changePosition .love-color {
-    color: hsl(2, 78%, 69%);
-}
-.changePosition span {
-    margin-right: 0.4rem !important;
-}
-.personColor  {
-    color: hsl(0, 0%, 80%);
-    font-size: 5rem !important;
-}
-/* end of post section */
-/* end of img and post section*/

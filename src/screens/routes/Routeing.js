@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 import {
     BrowserRouter as Router,
     Switch,
@@ -9,6 +10,12 @@ import Home from '../Home/Home';
 import SocialIcon from '../../components/SocialIcon/SocialIcon';
 import ImageSection from '../../components/imageSection/ImageSection';
 import Footer from '../../components/footer/Footer';
+import About from "../About/About";
+import Travel from "../Travel/Travel";
+import Post from '../../components/Post/Post';
+import Eat from '../Eat/Eat';
+import Relax from '../Relax/Relax';
+import Videos from '../Videos/Videos';
 const Routeing = () => {
     return (
         <div>
@@ -24,6 +31,24 @@ const Routeing = () => {
                 </Route>
                 <Route exact path="/footer">
                     <Footer />
+                </Route>
+                <Route exact path="/about">
+                    <About />
+                </Route>
+                <Route exact path="/travel">
+                    <Travel />
+                </Route>
+                <Route exact path="/post">
+                    <Post />
+                </Route>
+                <Route exact path="/eat">
+                    <Eat />
+                </Route>
+                <Route exact path="/relax">
+                    <Relax />
+                </Route>
+                <Route exact path="/videos">
+                    <Videos />
                 </Route>
             </Router>
         </div>
