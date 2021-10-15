@@ -33,9 +33,9 @@ const Navbar = () => {
             <div className="row flex-nowrap">
               <div>
                 <img src={Logo} alt="Madhavpur Logo" style={{
-                     width:'70px',
-                    height:'auto',
-                   
+                  width: '70px',
+                  height: 'auto',
+
                 }} />
               </div>
               {/* <div className="col-6" id="col-6">

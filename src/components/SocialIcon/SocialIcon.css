@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;
+}
+
+.social {
+    padding-right: 6.5rem;
+}
+.socialIcon{
+      padding-left: 4.5rem;
+}
+.socialIcon-color{
+    background-color: #2573DA;
+}
+.socialIcon-height {
+    height: 79px;
+    padding: 1.5rem 0 !important;
+}
+
+.white {
+    color: white;
+}
