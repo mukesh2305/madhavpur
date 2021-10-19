@@ -5,9 +5,10 @@ import { GrFacebookOption } from "react-icons/gr";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { FaPinterestP } from "react-icons/fa";
 import { RiTwitterLine } from "react-icons/ri";
+
 const SocialIcon = () => {
     return (
-        <div className=" text-center socialIcon-color">
+        <div className="text-center  socialIcon-color">
             <div className="jumbotron">
 
                 <div className="container text-center socialIcon-height">
@@ -24,7 +25,7 @@ const SocialIcon = () => {
                             Facebook
                         </div>
 
-                        <li className="col-1 list-unstyled  SocialIcon">
+                        <li className="col-1 list-unstyled SocialIcon">
                             <a
                                 className="text-decoration-none"
                                 href="https://www.instagram.com/"
@@ -35,7 +36,7 @@ const SocialIcon = () => {
                         <div className="col-2 social white">
                             Instagram
                         </div>
-                        <li className="col-1 list-unstyled  SocialIcon">
+                        <li className="col-1 list-unstyled SocialIcon">
                             <a
                                 className="text-decoration-none"
                                 href="https://www.pinterest.com/"
@@ -46,7 +47,7 @@ const SocialIcon = () => {
                         <div className="col-2 social white">
                             Pinteres
                         </div>
-                        <li className="col-1 list-unstyled  SocialIcon">
+                        <li className="col-1 list-unstyled SocialIcon">
                             <a
                                 className="text-decoration-none"
                                 href="https://www.twitter.com"

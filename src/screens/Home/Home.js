@@ -3,18 +3,6 @@ import Navbar from '../../components/navbar/Navbar'
 import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css"
 import { ImAirplane } from 'react-icons/im'
 import { AiFillCloud } from 'react-icons/ai'
-import beach1 from '../../public/image/beach1.webp';
-import beach2 from '../../public/image/beach2.webp';
-import beach3 from '../../public/image/beach3.webp';
-// import { IoEyeOutline } from 'react-icons/io';
-import { AiOutlineEye } from 'react-icons/ai'
-import { VscComment } from 'react-icons/vsc';
-// import Avatar from 'react-avatar';
-import { GoPerson } from "react-icons/go";
-import { AiOutlineHeart } from "react-icons/ai";
-
-// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
-
 import { GiBalaclava } from 'react-icons/gi'
 import "./Home.css"
 import SocialIcon from '../../components/SocialIcon/SocialIcon'
@@ -22,12 +10,6 @@ import ImageSection from '../../components/imageSection/ImageSection'
 import Footer from '../../components/footer/Footer'
 import Post from '../../components/Post/Post'
 const Home = () => {
-    // // const width = 
-    // document.documentElement.scrollTop = document.body.scrollTop = "118px";
-    // if (document.documentElement.scrollTop === "118px") {
-    //     add.classList.add('position-adujust')
-    // }
-    // className = "position-adujust"
 
     return (
         <>
@@ -43,7 +25,7 @@ const Home = () => {
                         <p>I haven’t been everywhere, but it’s on my list </p>
                     </div>
                 </div>
-
+                
                 <div className="py-4 container-md middleSection">
                     <div className="row">
                         <div className="text-center">
@@ -57,14 +39,14 @@ const Home = () => {
 
                 <div className="container-md ">
                     <div className="row travel-img">
-                        <div className="ml-5 col-4 image1">
+                        <div className="ml-5 col-md-4 image1">
                             <a href="/travel">Travel</a>
                         </div>
-                        <div className="col-4 image2">
-                            <a href="/travel">Eat</a>
+                        <div className="col-md-4 image2">
+                            <a href="/eat">Eat</a>
                         </div>
-                        <div className="col-4 image3" >
-                            <a href="/travel">Relax</a>
+                        <div className="col-md-4 image3" >
+                            <a href="/relax">Relax</a>
                         </div>
                     </div>
                 </div>
@@ -82,7 +64,6 @@ const Home = () => {
                                     <div className="vr"></div>
                                 </div>
                                 <div className="col-md-2">
-                                    {/* <h3>travel </h3> */}
                                     <span className="fw-bolder"> travel </span><br />
                                     blog
                                 </div>
@@ -91,7 +72,6 @@ const Home = () => {
                                     PLANE<span className="fw-bolder">TOUR</span>
                                 </div>
                                 <div className="col-md-2">
-                                    {/* <h3>Hello</h3> */}
                                     WORLD   <br />
                                     TRAVEL
                                 </div>
@@ -116,13 +96,8 @@ const Home = () => {
                     <Footer />
                 </div>
                 {/* end ofsocialIcon section */}
-
-
-
             </div>
         </>
-
     )
 }
-
 export default Home
